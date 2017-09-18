@@ -1,0 +1,41 @@
+=placeholder-style( $color )
+	color: $color
+ 
+=apply-placeholder( $color )
+
+	&::-webkit-input-placeholder
+		+placeholder-style( $color )
+
+	&:-moz-placeholder
+		+placeholder-style( $color )
+		
+	&.placeholder
+		+placeholder-style( $color )
+
+=icon( $str )
+	content: unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+	font-family: icomoon
+
+=clearfix
+	
+	&:before,
+	&:after
+		content: ""
+		display: table
+
+	&:after
+		clear: both
+
+=clean-list
+	list-style-type: none
+	padding: 0
+	margin: 0
+
+	li
+		list-style-type: none
+
+=gradient-text( $deg, $color-1, $color-2 )
+	background: -webkit-linear-gradient($deg, $color-1, $color-2)
+	-webkit-text-fill-color: transparent
+	-webkit-background-clip: text
+	color: $color-1

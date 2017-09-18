@@ -1,0 +1,57 @@
+.pagination
+	
+	@media (max-width: 991px)
+		display: block
+		padding:
+			top: 30px
+
+ul.page-numbers
+	+clean-list
+	text-transform: uppercase
+	text-align: center
+	font-size: 13px
+	display: block
+	color: #505856
+	margin:
+		bottom: 30px
+
+	li
+		display: inline-block
+
+		.page-numbers
+			position: relative
+
+			&.prev,
+			&.next
+				letter-spacing: .2em
+
+				&:after
+					width: 95%
+
+			&:after
+				content: ""
+				transition: all 250ms $ease-in-out-quad
+				background: linear-gradient( 45deg, #44e4a7, #44c8e6 )
+				position: absolute
+				display: block
+				height: 2px
+				width: 100%
+				opacity: 0
+				top: 115%
+
+			&:hover,
+			&.current
+
+				&:after
+					opacity: 1
+
+			&:hover
+				color: #44e4a7
+
+		span.page-numbers
+			+gradient-text( 45deg, #44e4a7, #44c8e6 )
+			font-size: 18px
+
+		&:not(:last-of-type)
+			margin:
+				right: 30px

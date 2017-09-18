@@ -1,0 +1,85 @@
+.section-title
+	display: flex
+	align-items: center
+	justify-content: center
+	font-family: $Playfair
+	font-weight: 700
+	line-height: 1em
+	font-size: 188px
+	margin: 0 0 55px
+	color: #e6e7e7
+
+	&.smaller
+		font-size: 110px
+
+		&:before,
+		&:after
+			top: 8px
+
+	&:before,
+	&:after
+		content: ""
+		position: relative
+		background: #e6e7e7
+		width: 60px
+		height: 1px
+		top: 15px
+
+	&:after
+		margin:
+			left: 30px
+
+	&:before
+		margin:
+			right: 30px
+
+	@media (max-width: 1400px)
+		font-size: 130px
+
+	@media (max-width: 1200px)
+		font-size: 100px
+
+		&.smaller
+			font-size: 88px
+
+	@media (max-width: 991px)
+		font-size: 80px
+
+		&.smaller
+			font-size: 66px
+
+			&:before,
+			&:after
+				width: 35px
+
+	@media (max-width: 550px)
+		font-size: 60px
+		margin:
+			bottom: 40px
+
+		&:before,
+		&:after
+			top: 8px
+
+		&:before
+			margin:
+				right: 15px
+
+		&:after
+			margin:
+				left: 15px
+
+		&.smaller
+			font-size: 44px
+
+	@media (max-width: 440px)
+		font-size: 45px
+
+		&:before,
+		&:after
+			width: 30px
+
+		&.smaller
+			font-size: 32px
+			margin:
+				bottom: 20px

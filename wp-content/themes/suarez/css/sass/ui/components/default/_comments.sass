@@ -1,0 +1,330 @@
+.comments-area
+	
+	.comments-area-title
+		text-transform: uppercase
+		letter-spacing: .2em
+		text-align: center
+		line-height: 1em
+		color: #6c6c6c
+		font-size: 15px
+		margin: 0 0 30px
+
+		&:after
+			content: ""
+			display: block
+			background: #d2e2de
+			margin: 30px auto 0
+			width: 100px
+			height: 1px
+
+	.comments-list
+		+clean-list
+		display: block
+		max-width: 770px
+		margin: 0 auto
+
+		.comment
+
+			.comment-inner
+				display: flex
+				align-items: flex-start
+				box-shadow: 0 0 109px 0 rgba(#000, .12)
+				border-radius: 5px
+				background: #fff
+				padding: 30px
+				margin:
+					bottom: 40px
+
+				.comment-image
+					flex: 0 0 60px
+					margin:
+						right: 30px
+
+					img
+						border-radius: 50%
+						object-fit: cover
+						display: block
+						height: 60px
+						width: 60px
+
+			.comment-meta
+				display: flex
+				align-items: center
+				line-height: 1em
+				margin:
+					bottom: 12px
+
+				.comments-author
+					letter-spacing: .02em
+					line-height: 1em
+					font-size: 14px
+					margin:
+						right: auto
+					color: #7d848c
+
+				.comment-date
+					text-transform: uppercase
+					letter-spacing: .1em
+					line-height: 1em
+					font-size: 12px
+					color: #9da0a3
+
+				.comments-options
+					position: relative
+					cursor: pointer
+					margin:
+						left: 5px
+
+					.options-trigger
+
+						i
+							transition: all 225ms $ease-in-out-quad
+							vertical-align: middle
+							display: inline-block
+							text-align: center
+							border-radius: 50%
+							line-height: 30px
+							font-size: 13px
+							color: #b5b5b5
+							height: 30px
+							width: 30px
+
+							&:hover
+								background: #f4f4f4
+
+					.options-list
+						display: block
+						transform: scale(.45)
+						transform-origin: 100% 0%
+						transition: all 250ms $ease-in-out-quad
+						box-shadow: 0 2px 3px 0 rgba(#000, .15)
+						border-bottom-right-radius: 3px
+						border-bottom-left-radius: 3px
+						letter-spacing: .02em
+						position: absolute
+						visibility: hidden
+						line-height: 1em
+						background: #fff
+						font-size: 13px
+						padding: 9px 0
+						color: #505856
+						width: 125px
+						opacity: 0
+						z-index: 2
+						right: 0
+						top: 0
+
+						li
+
+							a
+								transition: all 170ms ease
+								line-height: 32px
+								display: block
+								padding: 0 20px
+								height: 32px
+
+								&:hover
+									background: #eee
+
+					&:hover
+
+						.options-list
+							visibility: visible
+							transform: scale(1)
+							opacity: 1
+
+			.comment-body
+				width: 100%
+
+				p
+					letter-spacing: .02em
+					line-height: 1.667em
+					font-size: 12px
+					color: #bfbfbf
+					margin: 0
+
+				em
+					display: block
+					font-style: italic
+					font-size: 13px
+					color: #bfbfbf
+					padding:
+						top: 10px
+
+					+ br
+						display: none
+
+			.comments-list,
+			.children
+				position: relative
+				padding:
+					left: 100px
+
+				&:before
+					+icon( e941 )
+					position: absolute
+					line-height: 1em
+					font-size: 30px
+					color: #a5a9ae
+					left: 45px
+					top: 45px
+
+			.comment-respond
+
+				> small
+					display: block
+					font-size: 100%
+					margin: 0 0 10px
+
+					a
+
+						&:hover
+							color: #44e4a7
+
+	// Facebook Comments
+
+	.facebook-comments
+		display: block
+		max-width: 770px
+		margin: 0 auto 30px
+
+		.comments-toggle
+
+			&:after
+				content: ""
+				display: block
+				background: #d2e2de
+				margin: 30px auto 0
+				width: 100px
+				height: 1px
+
+			.toggle
+				transition: all 300ms $ease-in-out-quad
+				display: flex
+				align-items: center
+				justify-content: space-between
+				box-shadow: 0 0 109px 0 rgba(#000, .12)
+				border-radius: 5px
+				padding: 32px 50px
+				background: #fff
+				cursor: pointer
+
+				&:hover
+					box-shadow: 0 0 80px 0 rgba(#000, .25)
+
+				.title
+					text-transform: uppercase
+					letter-spacing: .2em
+					line-height: 1em
+					font-size: 15px
+					color: #6c6c6c
+
+				i
+					line-height: 1em
+					font-size: 36px
+					color: #e3e3e3
+
+		.comments-wrapper
+			display: none
+			padding:
+				top: 30px
+
+	@media (max-width: 768px)
+
+		.facebook-comments
+
+			.comments-toggle
+
+				.toggle
+					padding: 
+						right: 25px
+						left: 25px
+
+					.title
+						font-size: 14px
+
+					i
+						font-size: 24px
+
+		.comments-list
+
+			.comment
+
+				.comment-inner
+					padding: 18px
+					margin:
+						bottom: 28px
+
+				.comments-list
+					padding:
+						left: 75px
+
+					&:before
+						left: 25px
+
+	@media (max-width: 460px)
+
+		.facebook-comments
+
+			.comments-toggle
+
+				.toggle
+					justify-content: center
+
+					.title
+						text-align: center
+
+					i
+						display: none
+
+		.comments-list
+
+			.comment
+
+				.comment-inner
+
+					.comment-image
+						flex: 0 0 45px
+						margin:
+							right: 15px
+
+						img
+							height: 45px
+							width: 45px
+
+	@media (max-width: 430px)
+
+		.comments-list
+
+			.comment
+
+				.comment-meta
+					position: relative
+					flex-direction: column
+					align-items: flex-start
+					width: 100%
+
+					.comments-author
+						margin:
+							bottom: 10px
+
+					.comments-options
+						position: absolute
+						right: 0
+						top: 0
+
+				.comments-list
+					padding:
+						left: 50px
+
+					&:before
+						font-size: 22px
+						left: 15px
+
+.comments-info-message
+	font-family: $Playfair
+	letter-spacing: .05em
+	font-style: italic
+	font-size: 24px
+	margin:
+		bottom: 35px

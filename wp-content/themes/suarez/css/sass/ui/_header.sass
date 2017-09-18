@@ -1,0 +1,233 @@
+.main-header
+	transition: background 300ms $ease-in-out-quad
+	position: absolute
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding: 30px 40px 30px 30px
+	width: 100%
+	z-index: 9
+	left: 0
+	top: 0
+
+	// Navigation & Header Actions
+
+	.secondary-nav
+		display: flex
+		align-items: center
+
+		ul
+			+clean-list
+			line-height: 1em
+			font-size: 15px
+			color: #fff
+			margin:
+				right: 30px
+
+			li
+				display: inline-block
+
+				a
+					position: relative
+
+					&:after
+						content: ""
+						display: block
+						transition: all 200ms ease-in-out
+						background: rgba(#fff, .3)
+						top: calc(100% + 5px)
+						position: absolute
+						opacity: .4
+						height: 1px
+						width: 0%
+						left: 0
+
+					&:hover
+
+						&:after
+							width: 60%
+							opacity: 1
+
+				&:not(:last-of-type)
+					margin:
+						right: 30px
+
+		.search-form-toggle,
+		.primary-nav-toggle
+			transition: all 150ms $ease-in-out-quad
+			line-height: 1em
+			cursor: pointer
+			color: #fff
+
+			&:hover
+				color: #62c2aa
+
+		.search-form-toggle
+			font-size: 16px
+			margin:
+				right: 30px
+
+		.primary-nav-toggle
+			font-size: 21px
+
+	// Primary Nav
+
+	.primary-nav
+		transition: all 275ms $ease-in-out-quad
+		visibility: hidden
+		position: fixed
+		background: rgba(#000, .9)
+		display: flex
+		align-items: center
+		justify-content: center
+		opacity: 0
+		height: 100%
+		width: 100%
+		left: 0
+		top: 0
+
+		.call-to-action
+			+gradient-text( 45deg, #44e4a7, #44c8e6 )
+			line-height: 1em
+			font-size: 41px
+
+		.close-nav
+			display: inline-block
+			position: absolute
+			right: 40px
+			top: 40px
+			color: #fff
+			font-size: 11px
+			letter-spacing: .08em
+			text-transform: uppercase
+			line-height: 1em
+			font-weight: 500
+			cursor: pointer
+
+			i
+				position: relative
+				line-height: 1em
+				font-size: 17px
+				top: 3px
+				margin:
+					left: 10px
+
+		.nav-inner
+			transition: all 325ms $ease-in-out-quad
+			transform: translate(0, -10%)
+			transition-delay: 200ms
+			text-align: center
+			opacity: 0
+
+			> ul
+				margin:
+					bottom: 15px
+
+		ul
+			+clean-list
+			text-align: center
+			line-height: 1em
+			font-size: 41px
+			color: #fff
+
+			li
+
+				&:not(:last-of-type)
+					margin:
+						bottom: 20px
+
+				.children,
+				.sub-menu
+					display: none
+					line-height: 1em
+					font-size: 15px
+					padding:
+						top: 15px
+
+					li
+
+						&:nth-child(2)
+							margin:
+								bottom: 0
+
+							&:after
+								content: ""
+								display: block
+								background: #fff
+								margin: 15px auto 0
+								height: 1px
+								width: 30px
+
+					li
+
+						&:not(:last-of-type)
+							margin:
+								bottom: 15px
+
+		&.nav-visible
+			visibility: visible
+			opacity: 1
+
+			.nav-inner
+				transform: translate(0, 0)
+				opacity: 1
+
+	@media (max-width: 768px)
+
+		.secondary-nav
+
+			> ul
+				display: none
+
+			.search-form-toggle
+				margin:
+					right: 20px
+
+		.primary-nav
+
+			ul,
+			.call-to-action
+				font-size: 28px
+
+	@media (max-width: 420px)
+
+		.primary-nav
+
+			ul,
+			.call-to-action
+				font-size: 21px
+
+			ul
+
+				li
+
+					.children
+						font-size: 12px
+
+	&.sticky
+
+		&.fixed
+			background: rgba(#000, .6)
+			position: fixed
+			padding:
+				bottom: 15px
+				top: 15px
+
+.admin-bar
+	
+	.main-header
+
+		.primary-nav
+
+			.close-nav
+				top: 72px
+
+	@media (min-width: 781px)
+
+		.main-header
+			top: 32px
+
+	@media (max-width: 780px)
+
+		.main-header
+			top: 46px

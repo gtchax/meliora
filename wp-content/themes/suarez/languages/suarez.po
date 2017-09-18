@@ -1,0 +1,1140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Suarez\n"
+"POT-Creation-Date: 2017-01-24 16:21+0200\n"
+"PO-Revision-Date: 2017-01-24 16:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: Teslathemes <hi@teslathemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:7
+msgid "The page you're looking for can't be found"
+msgstr ""
+
+#: 404.php:11
+msgid "Homepage"
+msgstr ""
+
+#: archive.php:19 archive.php:21 archive.php:23
+msgid "Archive: "
+msgstr ""
+
+#: archive.php:25
+msgid "Archive"
+msgstr ""
+
+#: archive.php:33 category.php:28 home.php:47 index.php:18 tag.php:25
+msgid "Select a Post"
+msgstr ""
+
+#: archive.php:56 category.php:51 home.php:70 index.php:33 tag.php:48
+msgid "Sorry, but there was nothing found."
+msgstr ""
+
+#: category.php:18
+msgid "Category: "
+msgstr ""
+
+#: comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments "
+msgstr ""
+
+#: comments.php:63
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:73
+msgid "Show facebook comments"
+msgstr ""
+
+#: comments.php:85
+msgid ""
+"Facebook plugin is not configured. Please add a website for the facebook "
+"comments and a number of comments from the Dashboard > Suarez > Additional "
+"Options > Facebook."
+msgstr ""
+
+#: footer.php:59
+msgid "Copyright &copy; "
+msgstr ""
+
+#: footer.php:59 header.php:6 theme_config/tt-map.php:42
+#: theme_config/tt-map.php:67
+msgid "TeslaThemes"
+msgstr ""
+
+#: footer.php:59
+msgid "Supported by "
+msgstr ""
+
+#: footer.php:59
+msgid "WPmatic."
+msgstr ""
+
+#: functions.php:151
+msgid "No Share"
+msgstr ""
+
+#: functions.php:203
+msgid "Reply"
+msgstr ""
+
+#: functions.php:206
+msgid "Edit"
+msgstr ""
+
+#: functions.php:214
+msgid " Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:273
+msgid "0 Views"
+msgstr ""
+
+#: functions.php:275
+msgid " Views"
+msgstr ""
+
+#: functions.php:386
+msgid "Category Image"
+msgstr ""
+
+#: functions.php:424
+msgid "Upload an appropriate image."
+msgstr ""
+
+#: functions.php:560
+msgid "Page Header"
+msgstr ""
+
+#: functions.php:563
+msgid "Page Subtitle"
+msgstr ""
+
+#: functions.php:564
+msgid "Selected icon: "
+msgstr ""
+
+#: functions.php:565
+msgid "Hide page header"
+msgstr ""
+
+#: header.php:39 templates/searchform.php:3 tesla_framework/views/admin.php:177
+msgid "Close"
+msgstr ""
+
+#: home.php:45
+msgid "Select Category"
+msgstr ""
+
+#: index.php:12
+msgid "News"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3034
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:833
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3443
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:940
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:940
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:943
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:943
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2575
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2617
+msgid "Activate"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2793
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2819
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3375
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3375
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3381
+msgid "Show Details"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3375
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3381
+msgid "Hide Details"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3381
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: search.php:14 templates/searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: search.php:21
+msgid "Found for: "
+msgstr ""
+
+#: search.php:39
+msgid "Sorry, there are no posts for your query."
+msgstr ""
+
+#: single.php:85
+msgid "Share via"
+msgstr ""
+
+#: single.php:92
+msgid "likes"
+msgstr ""
+
+#: single.php:95
+msgid " Comments"
+msgstr ""
+
+#: tag.php:18
+msgid "Tag: "
+msgstr ""
+
+#: templates/content-photo.php:18 templates/content.php:25
+#: templates/shortcodes/tt_featured_page.php:35
+msgid "Read more"
+msgstr ""
+
+#: templates/related_posts.php:25
+msgid "You Might also Like"
+msgstr ""
+
+#: templates/searchform.php:10
+msgid "- Submit -"
+msgstr ""
+
+#: templates/shortcodes/tt_featured_page.php:56
+msgid ""
+"You haven't specified any page slugs, please add a page slug. Thank you."
+msgstr ""
+
+#: tesla_framework/core/tesla_admin.php:303
+#: tesla_framework/core/tt_subscription.php:61
+msgid "Error"
+msgstr ""
+
+#: tesla_framework/core/tesla_slider.php:1252
+#: tesla_framework/core/tesla_slider.php:1265
+#: tesla_framework/core/tesla_slider.php:1285
+msgid "Order"
+msgstr ""
+
+#: tesla_framework/core/tesla_slider.php:1254
+#: tesla_framework/core/tesla_slider.php:1268
+msgid "Set the order in which the categories should be displayed."
+msgstr ""
+
+#: tesla_framework/core/teslaframework.php:37
+msgid "Simple Meta Box fields"
+msgstr ""
+
+#: tesla_framework/core/tt_contact_form.php:74
+msgid "From "
+msgstr ""
+
+#: tesla_framework/core/tt_contact_form.php:74
+msgid " Contact Form "
+msgstr ""
+
+#: tesla_framework/core/tt_subscription.php:59
+msgid "Subscribed"
+msgstr ""
+
+#: tesla_framework/core/tt_subscription.php:63
+msgid "Email already exists"
+msgstr ""
+
+#: tesla_framework/core/tt_subscription.php:68
+msgid "MailChimp Error"
+msgstr ""
+
+#: tesla_framework/core/tt_subscription.php:72 theme_config/subscription.php:24
+msgid "No data received"
+msgstr ""
+
+#: tesla_framework/core/tt_subscription.php:100
+msgid "No API key for mailchimp"
+msgstr ""
+
+#: tesla_framework/core/tt_subscription.php:114
+msgid "Not a valid mailchimp api key."
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:250
+msgid "Delete this image"
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:250
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:882
+msgid "Delete"
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:357
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:582
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:629
+#: tesla_framework/extensions/meta-box-class/my-meta-box-class.php:438
+#: tesla_framework/extensions/meta-box-class/my-meta-box-class.php:477
+#: tesla_framework/views/admin.php:141 theme_config/custom_meta_box.php:177
+msgid "Remove"
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:595
+#: tesla_framework/extensions/meta-box-class/my-meta-box-class.php:450
+msgid "Add"
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:878
+msgid "Uploaded files"
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:889
+msgid "Upload new files"
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:895
+msgid "Add more files"
+msgstr ""
+
+#: tesla_framework/extensions/Tax-meta-class/Tax-meta-class.php:947
+#: tesla_framework/extensions/meta-box-class/my-meta-box-class.php:804
+msgid "Select a color"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:167
+#: tesla_framework/extensions/autoimport/autoimporter.php:175
+#: tesla_framework/extensions/autoimport/autoimporter.php:258
+#: tesla_framework/extensions/autoimport/autoimporter.php:262
+#: tesla_framework/extensions/autoimport/autoimporter.php:271
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:168
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:263
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:279
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:303
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:363
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:414
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:454
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:500
+#: tesla_framework/extensions/autoimport/autoimporter.php:641
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:526
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:607
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:772
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:779
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:842
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:855
+msgid "Invalid file type"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:899
+msgid "Remote server did not respond"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:905
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:912
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:917
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/autoimporter.php:923
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/parsers.php:43
+#: tesla_framework/extensions/autoimport/parsers.php:75
+#: tesla_framework/extensions/autoimport/parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/parsers.php:44
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: tesla_framework/extensions/autoimport/parsers.php:87
+#: tesla_framework/extensions/autoimport/parsers.php:92
+#: tesla_framework/extensions/autoimport/parsers.php:283
+#: tesla_framework/extensions/autoimport/parsers.php:473
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: tesla_framework/extensions/meta-box-class/my-meta-box-class.php:1884
+#: tesla_framework/extensions/meta-box-class/my-meta-box-class.php:1892
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:65
+msgid "Import file could not be found. Please try again."
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:100
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:142
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:164
+msgid "Site does not support widget"
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:200
+msgid "Widget already exists"
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:262
+msgid "Imported"
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:265
+msgid "Imported to Inactive"
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:272
+msgid "No Title"
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:336
+msgid "Setting Demo Widgets:"
+msgstr ""
+
+#: tesla_framework/extensions/widgetimport/widgetimport.php:341
+#, php-format
+msgid "You can manage your <a href=\"%s\">Widgets</a>."
+msgstr ""
+
+#: tesla_framework/helpers/instagram.php:101
+msgid "No username inserted in instagram widget"
+msgstr ""
+
+#: tesla_framework/views/admin.php:21
+msgid "Documentation"
+msgstr ""
+
+#: tesla_framework/views/admin.php:24
+msgid "Support"
+msgstr ""
+
+#: tesla_framework/views/admin.php:27
+msgid "Latest News"
+msgstr ""
+
+#: tesla_framework/views/admin.php:31
+msgid " Version "
+msgstr ""
+
+#: tesla_framework/views/admin.php:32
+msgid "Framework "
+msgstr ""
+
+#: tesla_framework/views/admin.php:32
+msgid "Version "
+msgstr ""
+
+#: tesla_framework/views/admin.php:33
+msgid "Manual check for theme updates"
+msgstr ""
+
+#: tesla_framework/views/admin.php:33
+msgid "Check Updates"
+msgstr ""
+
+#: tesla_framework/views/admin.php:35
+msgid "View Theme Changelog"
+msgstr ""
+
+#: tesla_framework/views/admin.php:35
+msgid "View Changelog"
+msgstr ""
+
+#: tesla_framework/views/admin.php:36
+msgid "Import Demo Options"
+msgstr ""
+
+#: tesla_framework/views/admin.php:38
+msgid "Tesla Contact Forms Builder"
+msgstr ""
+
+#: tesla_framework/views/admin.php:38
+msgid "Manage Contact Forms"
+msgstr ""
+
+#: tesla_framework/views/admin.php:57 tesla_framework/views/admin.php:85
+#: tesla_framework/views/admin.php:119 tesla_framework/views/admin.php:161
+#: tesla_framework/views/options/button.php:5
+#: tesla_framework/views/options/image_upload.php:13
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: tesla_framework/views/admin.php:159
+msgid "Save Changes"
+msgstr ""
+
+#: tesla_framework/views/admin.php:178
+msgid "Choose"
+msgstr ""
+
+#: tesla_framework/views/options/image_upload.php:15
+msgid "Upload Image"
+msgstr ""
+
+#: tesla_framework/views/options/image_upload.php:17
+msgid "Remove Image"
+msgstr ""
+
+#: tesla_framework/views/options/image_upload.php:19
+msgid "Preview"
+msgstr ""
+
+#: tesla_framework/views/options/subscription.php:12
+msgid "Clear Subscription List"
+msgstr ""
+
+#: tesla_framework/views/options/subscription.php:14
+msgid "Export subscription list"
+msgstr ""
+
+#: tesla_framework/views/options/subscription.php:15
+msgid "Tab Delimited TXT"
+msgstr ""
+
+#: tesla_framework/views/options/subscription.php:16
+msgid "CSV"
+msgstr ""
+
+#: tesla_framework/views/options/subscription.php:18
+msgid "No subscribers yet..."
+msgstr ""
+
+#: tesla_framework/views/options/text.php:45
+msgid "Text Logo Preview"
+msgstr ""
+
+#: tesla_framework/widgets/instagram.php:13 widgets/instagram_block.php:13
+msgid "Instagram feed."
+msgstr ""
+
+#: tesla_framework/widgets/instagram.php:35
+msgid "Instagram"
+msgstr ""
+
+#: tesla_framework/widgets/instagram.php:42
+#: tesla_framework/widgets/twitter.php:64 widgets/instagram_block.php:56
+#: widgets/popular_posts.php:57 widgets/sort_widget.php:81
+#: widgets/subscriber.php:53
+msgid "Title:"
+msgstr ""
+
+#: tesla_framework/widgets/instagram.php:45 widgets/instagram_block.php:62
+msgid "Image nr:"
+msgstr ""
+
+#: tesla_framework/widgets/instagram.php:48 widgets/instagram_block.php:65
+msgid "Username:"
+msgstr ""
+
+#: tesla_framework/widgets/instagram.php:51 widgets/instagram_block.php:68
+msgid "Cache Hours:"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:10
+msgid "Twitter feed."
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:50
+msgid "Twitter"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:70
+msgid "Twitter user:"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:76
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:80
+msgid "Visit"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:80
+msgid "Twitter Apps"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:80
+msgid ""
+"create your App; press 'Create Access token' at the bottom; insert the "
+"following from the 'Keys and Access Tokens' tab."
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:83
+msgid "Consumer Key:"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:89
+msgid "Consumer Secret:"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:95
+msgid "Access Token:"
+msgstr ""
+
+#: tesla_framework/widgets/twitter.php:101
+msgid "Access Token Secret:"
+msgstr ""
+
+#: theme_config/subscription.php:6
+msgid "Please insert email"
+msgstr ""
+
+#: theme_config/subscription.php:8
+msgid "Invalid Email"
+msgstr ""
+
+#: theme_config/subscription.php:23
+msgid "Date"
+msgstr ""
+
+#: theme_config/subscription.php:25
+msgid "Error writing to disk"
+msgstr ""
+
+#: theme_config/subscription.php:26
+msgid "Successfully Subscribed"
+msgstr ""
+
+#: theme_config/subscription.php:27
+msgid "Couldn't write to file"
+msgstr ""
+
+#: theme_config/tt-map.php:8
+msgid "Show Title?"
+msgstr ""
+
+#: theme_config/tt-map.php:10
+msgid "If checked Title will be shown at top"
+msgstr ""
+
+#: theme_config/tt-map.php:11 theme_config/tt-map.php:89
+#: theme_config/tt-map.php:95
+msgid "Yes"
+msgstr ""
+
+#: theme_config/tt-map.php:15
+msgid "Section title"
+msgstr ""
+
+#: theme_config/tt-map.php:18
+msgid "Set Section title"
+msgstr ""
+
+#: theme_config/tt-map.php:26
+msgid "Choose section style"
+msgstr ""
+
+#: theme_config/tt-map.php:28
+msgid "Select style type."
+msgstr ""
+
+#: theme_config/tt-map.php:30
+msgid "Light"
+msgstr ""
+
+#: theme_config/tt-map.php:31
+msgid "Dark"
+msgstr ""
+
+#: theme_config/tt-map.php:39
+msgid "Featured Page"
+msgstr ""
+
+#: theme_config/tt-map.php:43
+msgid "Tesla Team"
+msgstr ""
+
+#: theme_config/tt-map.php:47
+msgid "Page slug"
+msgstr ""
+
+#: theme_config/tt-map.php:49
+msgid "Example: about-me-page"
+msgstr ""
+
+#: theme_config/tt-map.php:54 theme_config/tt-map.php:99
+msgid "CSS box"
+msgstr ""
+
+#: theme_config/tt-map.php:56 theme_config/tt-map.php:101
+msgid "Design Options"
+msgstr ""
+
+#: theme_config/tt-map.php:64
+msgid "Tesla Contact Form"
+msgstr ""
+
+#: theme_config/tt-map.php:68
+msgid ""
+"By using this shortcode you have to go to theme options and create a contact "
+"form."
+msgstr ""
+
+#: theme_config/tt-map.php:72
+msgid "Form Title"
+msgstr ""
+
+#: theme_config/tt-map.php:74
+msgid "Example: Say Hello !"
+msgstr ""
+
+#: theme_config/tt-map.php:79
+msgid "Form Description"
+msgstr ""
+
+#: theme_config/tt-map.php:81
+msgid "Example: Your Questions and Sp ..."
+msgstr ""
+
+#: theme_config/tt-map.php:86
+msgid "Hide contact Map?"
+msgstr ""
+
+#: theme_config/tt-map.php:88
+msgid "Please provide your map coordinates Dashboard -> Suarez -> Contact Info"
+msgstr ""
+
+#: theme_config/tt-map.php:93
+msgid "Hide socials ?"
+msgstr ""
+
+#: theme_config/views/contact_form/email.php:2
+msgid "An E-mail is required"
+msgstr ""
+
+#: theme_config/views/contact_form/submit.php:2
+msgid "Submit"
+msgstr ""
+
+#: theme_config/views/contact_form/submit.php:3
+msgid "Sending Message"
+msgstr ""
+
+#: theme_config/views/contact_form/submit.php:4
+msgid "Message Successfully Sent"
+msgstr ""
+
+#: theme_config/views/contact_form/submit.php:5
+msgid "Unable to send message"
+msgstr ""
+
+#: theme_config/views/contact_form/text.php:2
+msgid "A name is required !"
+msgstr ""
+
+#: theme_config/views/contact_form/textarea.php:2
+msgid "Insert a Message!"
+msgstr ""
+
+#: widgets/instagram_block.php:48
+msgid "Instagram Block"
+msgstr ""
+
+#: widgets/instagram_block.php:59
+msgid "Background Image:"
+msgstr ""
+
+#: widgets/popular_posts.php:7
+msgid "[Suarez] Popular Posts"
+msgstr ""
+
+#: widgets/popular_posts.php:8
+msgid ""
+"This widget gives you the ability to show the most popular posts by views"
+msgstr ""
+
+#: widgets/popular_posts.php:52
+msgid "New title"
+msgstr ""
+
+#: widgets/popular_posts.php:61
+msgid "Number of Posts:"
+msgstr ""
+
+#: widgets/sort_widget.php:10
+msgid "Posts Sorting Widget."
+msgstr ""
+
+#: widgets/sort_widget.php:34
+msgid "Latest"
+msgstr ""
+
+#: widgets/sort_widget.php:41
+msgid "Likes"
+msgstr ""
+
+#: widgets/sort_widget.php:48
+msgid "Popularity"
+msgstr ""
+
+#: widgets/sort_widget.php:55
+msgid "A - Z"
+msgstr ""
+
+#: widgets/subscriber.php:10
+msgid "Subscribe Box Widget."
+msgstr ""
+
+#: widgets/subscriber.php:33
+msgid "Enter your email address"
+msgstr ""
+
+#: widgets/subscriber.php:36
+msgid "submit"
+msgstr ""

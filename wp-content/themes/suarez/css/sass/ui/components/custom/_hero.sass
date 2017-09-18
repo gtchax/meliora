@@ -1,0 +1,181 @@
+// Hero Slider
+
+.hero-slider-block
+	display: block
+	position: relative
+	line-height: 1em
+
+	.hero-content
+		transform: translate(0, -50%)
+		top: calc(50% - 70px)
+		position: absolute
+		text-align: center
+		width: 100%
+		z-index: 2
+		left: 0
+
+		h1,
+		p
+			color: #fff
+			margin: 0
+
+		h1
+			letter-spacing: -.06em
+			font-family: $Droid
+			line-height: 1em
+			font-size: 110px
+
+		p
+			text-transform: uppercase
+			letter-spacing: .2em
+			line-height: 1em
+			font-size: 17px
+
+	@media (max-width: 1400px)
+
+		.hero-content
+			top: calc(50% - 50px)
+
+			h1
+				font-size: 80px
+
+			p
+				letter-spacing: .12em
+				font-size: 16px
+
+	@media (max-width: 992px)
+		margin:
+			bottom: 50px
+
+		.hero-content
+			top: 50%
+
+			h1
+				font-size: 66px
+				margin: 0 0 5px
+
+	@media (max-width: 530px)
+
+		.hero-content
+
+			h1
+				letter-spacing: 0em
+				font-size: 48px
+
+			p
+				font-size: 14px
+
+.hero-slider
+	position: relative
+	display: block
+
+	.slides-list
+
+		.slide
+
+			img
+				display: block
+				height: auto
+				width: 100%
+
+	.slick-dots
+		transform: translate(0, -50%)
+		background: rgba(#fff, .15)
+		border-radius: 25px
+		padding: 30px 14px
+		position: absolute
+		line-height: 1em
+		display: block
+		right: 130px
+		z-index: 4
+		top: 50%
+
+		li
+			position: relative
+			border-radius: 50%
+			background: #fff
+			cursor: pointer
+			display: block
+			height: 7px
+			width: 7px
+
+			&:not(:last-of-type)
+				margin:
+					bottom: 12px
+
+			&.slick-active
+
+				button
+					transform: scale(1) translate(0, 0)
+					opacity: 1
+
+			button
+				transform: scale(.3) translate(50%, 0)
+				transition: all 225ms ease-in-out
+				pointer-events: none
+				letter-spacing: .1em
+				position: absolute
+				font-size: 12px
+				background: 0
+				left: -42px
+				color: #fff
+				padding: 0
+				border: 0
+				top: -4px
+				opacity: 0
+				padding:
+					right: 14px
+
+				&:after
+					content: ""
+					position: absolute
+					display: inline-block
+					background: rgba(#fff, .2)
+					height: 1px
+					width: 10px
+					top: 8px
+					right: 0
+
+	@media (max-width: 1400px)
+
+		.slick-dots
+			right: 70px
+
+	@media (max-width: 992px)
+
+		.slick-dots
+			padding: 20px 12px
+			right: 30px
+
+			li
+				height: 6px
+				width: 6px
+
+	@media (max-width: 768px)
+
+		.slides-list
+
+			.slide
+
+				img
+					object-fit: cover
+					height: 50vh
+
+		.slick-dots
+			transform: translate(-50%, 0)
+			padding: 12px 20px
+			line-height: 1em
+			font-size: 0
+			bottom: 30px
+			right: auto
+			top: auto
+			left: 50%
+
+			li
+				display: inline-block
+
+				button
+					display: none
+
+				&:not(:last-of-type)
+					margin: 0 12px 0 0

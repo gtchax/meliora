@@ -1,0 +1,187 @@
+.section-contact
+	margin:
+		bottom: 75px
+
+.contact-box
+	box-shadow: 0 0 109px 0 rgba(#000, .12)
+	position: relative
+	border-radius: 7px
+	background: #fff
+	overflow: hidden
+	z-index: 2
+	margin:
+		bottom: 40px
+		top: -120px
+
+	.box-inner
+		display: flex
+		align-items: stretch
+
+		> div
+			width: 50%
+
+		.contact-map
+			background: #f7f7f7
+			position: relative
+
+			#map-canvas
+				position: absolute
+				bottom: 0
+				right: 0
+				left: 0
+				top: 0
+
+		.contact-details
+			position: relative
+			padding:
+				bottom: 60px
+				right: 70px
+				left: 85px
+				top: 70px
+
+			&:before
+				+icon( e93e )
+				position: absolute
+				line-height: 1em
+				font-size: 73px
+				color: #f2f3f3
+				right: 50px
+				top: 50px
+
+			.details-title
+				font-family: $Playfair
+				letter-spacing: 0em
+				font-weight: 700
+				line-height: 1em
+				font-size: 60px
+				color: #e6e7e7
+				margin: 0 0 30px
+
+			.details-description
+				display: block
+				letter-spacing: .02em
+				line-height: 1.5em
+				font-size: 14px
+				color: #7d848c
+				margin: 0 0 35px
+				max-width: 300px
+
+				&:after
+					content: ""
+					display: block
+					background: linear-gradient(0deg, #44e4a7, #44c8e6)
+					margin: 25px 0 0
+					width: 70px
+					height: 2px
+
+	@media (max-width: 1600px)
+		margin:
+			top: -80px
+
+	@media (max-width: 1200px)
+
+		.box-inner
+
+			.contact-details
+				padding:
+					left: 40px
+					right: 30px
+					bottom: 35px
+					top: 45px
+
+				&:before
+					font-size: 50px
+					right: 25px
+					top: 25px
+
+	@media (max-width: 991px)
+
+		.box-inner
+
+			.contact-details
+
+				.details-title
+					font-size: 44px
+					margin:
+						bottom: 20px
+
+				.details-description
+					margin: 0 0 25px
+
+					&:after
+						margin:
+							top: 20px
+
+	@media (max-width: 768px)
+
+		.box-inner
+			flex-direction: column-reverse
+
+			> div
+				width: 100%
+
+			.contact-map
+				height: 400px
+
+	@media (max-width: 450px)
+
+		.box-inner
+
+			.contact-details
+				padding:
+					right: 25px
+					left: 25px
+
+				&:before
+					font-size: 36px
+					right: 15px
+					top: 15px
+
+				.details-title
+					font-size: 36px
+
+.social-block
+	display: block
+	text-align: center
+	position: relative
+	z-index: 3
+
+	li
+		display: inline-block
+
+		a
+			display: inline-block
+			box-shadow: 0 0 109px 0 rgba(#000, .12)
+			border-radius: 25px
+			text-align: center
+			line-height: 56px
+			min-width: 155px
+			background: #fff
+			padding: 0 20px
+			height: 56px
+
+			i
+				+gradient-text( 45deg, #44e4a7, #44c8e6 )
+				position: relative
+				font-size: 16px
+				color: #43d4c4
+				top: 2px
+				margin:
+					right: 5px
+
+			.name
+				letter-spacing: .1em
+				font-size: 13px
+				color: #99999a
+
+		&:not(:last-of-type)
+			margin:
+				right: 30px
+
+	@media (max-width: 580px)
+
+		li
+			display: block
+
+			&:not(:last-of-type)
+				margin: 0 0 25px

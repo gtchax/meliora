@@ -1,0 +1,78 @@
+.section-404
+	
+	.section-inner
+		position: relative
+
+	.section-content
+		transform: translate(0, -50%)
+		position: absolute
+		text-align: center
+		z-index: 2
+		right: 0
+		top: 50%
+		left: 0
+
+		h1,
+		p,
+		i
+			display: block
+			line-height: 1em
+			color: #fff
+
+		h1
+			letter-spacing: -.06em
+			font-family: $Droid
+			font-size: 90px
+			margin: 0 0 15px
+
+		p
+			text-transform: uppercase
+			letter-spacing: .2em
+			line-height: 1.3em
+			font-size: 17px
+			margin: 0 0 25px
+
+		i
+			font-size: 61px
+			margin: 0 0 30px
+
+	.image
+
+		img
+			object-fit: cover
+			display: block
+			height: 100vh
+			width: 100%
+
+	@media (max-width: 768px)
+
+		.section-content
+
+			h1
+				font-size: 56px
+
+			p
+				font-size: 16px
+
+			i
+				font-size: 50px
+
+.error404
+	
+	.main-footer
+		box-shadow: none
+		position: absolute
+		z-index: 2
+		bottom: 0
+		right: 0
+		left: 0
+
+		.copyrights
+			background: rgba(#fff, .1)
+			box-shadow: none
+			color: #fff
+
+	&.admin-bar
+
+		.main-footer
+			bottom: -32px

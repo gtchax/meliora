@@ -1,0 +1,118 @@
+.author-bio-block
+	display: block
+	margin:
+		bottom: 70px
+
+	> .row
+		display: flex
+		align-items: center
+
+	.block-description
+		box-shadow: 0 0 109px 0 rgba(#000, .12)
+		padding: 35px 65px 65px
+		border-radius: 5px
+		text-align: center
+		background: #fff
+
+		.block-heading
+			+gradient-text( 45deg, #44e4a7, #44c8e6 )
+			display: inline-block
+			letter-spacing: .02em
+			line-height: 1em
+			font-size: 18px
+			color: #62c2aa
+			margin: 0 0 15px
+
+		.block-title
+			font-family: $Playfair
+			letter-spacing: .02em
+			line-height: 1em
+			font-size: 37px
+			color: #30353d
+			margin: 0 0 20px
+
+		.block-text
+			font-family: $Playfair
+			letter-spacing: .02em
+			color: #9fa2a6
+			margin: 0 0 25px
+
+		.delimiter
+			display: flex
+			align-items: center
+			justify-content: center
+			line-height: 1em
+			margin: 0 0 30px
+
+			&:before,
+			&:after
+				content: ""
+				height: 1px
+				width: 40px
+
+			&:before
+				background: #b4edeb
+
+			&:after
+				background: #b4edec
+
+			i
+				+gradient-text( 45deg, #44e4a7, #44c8e6 )
+				line-height: 1em
+				font-size: 40px
+				color: #44d3ce
+				margin: 0 20px
+
+	.block-image
+		display: block
+		width: 100%
+
+		img
+			width: 100%
+
+	&.raised-up
+		position: relative
+		margin:
+			top: -130px
+		z-index: 2
+
+	@media (max-width: 1400px)
+
+		&.raised-up
+			margin:
+				top: -80px
+
+	@media (max-width: 1200px)
+
+		.block-description
+			padding: 30px 40px 35px
+
+	@media (max-width: 992px)
+		margin:
+			bottom: 45px
+
+		> .row
+			flex-direction: column-reverse
+
+			> [class*="col-"]
+				width: 100%
+
+		&.raised-up
+			margin:
+				top: 0
+
+		.block-description
+
+			.delimiter
+				margin: 0 0 25px
+
+				i
+					font-size: 32px
+
+	@media (max-width: 620px)
+
+		.block-description
+			padding: 25px 25px 30px
+
+			.block-title
+				font-size: 28px

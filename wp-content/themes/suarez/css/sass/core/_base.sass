@@ -1,0 +1,50 @@
+.clean-list
+	list-style-type: none
+	padding: 0
+	margin: 0
+
+	li
+		list-style-type: none
+
+.align-left
+	text-align: left
+
+.align-right
+	text-align: right
+
+.align-center
+	text-align: center
+
+[class^="icon-"],
+[class*=" icon-"]
+	display: inline-block
+
+img
+	max-width: 100%
+	height: auto
+
+html
+
+	.row-fit
+		margin: 0
+
+		.row
+			margin: 0
+
+		[class*="col-"],
+		.vc_column_container > .vc_column-inner
+			padding: 0
+
+	.row-fit-10
+		margin: 0 -10px
+
+		[class*="col-"],
+		.vc_column_container > .vc_column-inner
+			padding: 0 10px
+
+body
+	transition: all 450ms $ease-in-out-quad
+	opacity: 0
+
+	&.dom-ready
+		opacity: 1
